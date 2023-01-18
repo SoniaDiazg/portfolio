@@ -62,14 +62,18 @@ nav a {
 }
 
 nav div a {
-	padding-left: 10px;
 	margin: 10px;
+}
+
+#socialMedia {
+	display: flex;
+	align-items: center;
 }
 
 .letraS {
 	font-weight: 900;
 	font-size: 100px;
-	color: #BB8DB3;
+	color: #80B4B6;
 }
 
 #button-menu {

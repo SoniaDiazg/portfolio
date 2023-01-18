@@ -13,7 +13,7 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
-	<!-- <link rel="stylesheet" href="assets/css/aboutMe.css"> -->
+	<link rel="stylesheet" href="assets/css/skills.css">
 	<!-- Fuentes -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,9 +25,9 @@
 
 </head>
 <body>
+	
 	<nav>
-		<button id="button-menu" class="button-menu"><p class="letraS">s</p></button>
-		<!-- <img id="letraS" src="assets/rsc/img/letters-g4392ef22a_1920.jpg" alt="letra S"> -->
+		<button id="button-menu" class="button-menu"><a href="index.html"><p class="letraS">S</p></a></button>
 		<br><br>
 		<div id="menu">
 			<a href="aboutMe.html">Sobre mi</a>
@@ -45,9 +45,11 @@
 		<div>
 			<a href=""><img src="assets/rsc/img/icono_linkedin.svg" alt="icono Linkedin"></a>
 			<a href=""><img src="assets/rsc/img/icono_email.svg" alt="icono Email"></a>
+			<a href=""><img src="assets/rsc/img/icono_gitHub.svg" alt="icono gitHub"></a>
 		</div>
 	</nav>
 	
+	<!-- shapesBackground -->
 	<div id="shapesBackground">
 		<div id="blueShape">
 			<img class="shake-vertical opacityShape" src="assets/rsc/img/formaAzul.png" alt="forma azul">
@@ -62,30 +64,32 @@
 		</div>
 	</div>
 
-	<main id="mainAboutme">
-		<span>&#60;?php</span>
-		<div id="divTittle"><span>&#60;h1> </span><h2 class="tittle">Habilidades </h2><span>&#60;/h1>;</span></div>
+	<!-- section about me -->
+	<section>
+		<div class="divTittle"><span>&#60;h1> </span><h2 class="tittle">Habilidades </h2><span>&#60;/h1></span></div>
+		
+		<div id="shapes">
+			<div id="shapesCenter">
+				
+				<div id="cardBackend">
+					<img src="assets/rsc/img/formaIzq.svg" alt="forma izquierda">
+				</div>
+				
+				<div id="cardCenter">
+					<img src="assets/rsc/img/circulo.svg" alt="circulo">
+				</div>
 
-		<div>
-			<div id="cardCenter">
-				<img src="assets/rsc/img/circulo.svg" alt="circulo">
+				<div id="cardFrontend">
+					<img src="assets/rsc/img/formaDrcha.svg" alt="forma derecha">
+				</div>
 			</div>
 
-			<div id="cardBackend">
-				<img src="assets/rsc/img/formaIzq.svg" alt="forma izquierda">
-			</div>
-	
-			<div id="cardFrontend">
-				<img src="assets/rsc/img/formaDrcha.svg" alt="forma derecha">
-			</div>
-			
-			<div id="cardTools">
+			<div id="cardTools">		
 				<img src="assets/rsc/img/formaBjo.svg" alt="forma abajo">
 			</div>
 		</div>
-		
-		<span>&#60;?></span>
-	</main>
+	</section>
+	
 
 	<!-- SCRIPTS -->
 	<script type="text/javascript" src="assets/js/script.js"></script>

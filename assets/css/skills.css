@@ -1,0 +1,46 @@
+.divTittle {
+	width: calc(100vw - 200px);
+    margin-left: 170px;
+	padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+
+
+#shapesCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#shapes {
+    width: calc(100vw - 200px);
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+#cardTools {
+    display: flex;
+    align-items: center;
+}
+
+/* #cardBackend img {
+    width: 200px;
+}
+#cardFrontend img {
+    width: 200px;
+}
+
+#cardCenter img {
+    width: 300px;
+}
+
+#cardTools img {
+    width: 300px;
+} */
