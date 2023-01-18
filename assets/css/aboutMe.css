@@ -1,0 +1,82 @@
+#mainAboutme {
+	width: calc(100vw - 200px);
+    margin-left: 170px;
+	padding-left: 30px;
+	padding-top: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #mainAboutme span {
+	font-size: 20px;
+  }
+
+  #textAboutMe {
+	width: 871px;
+	font-size: 20px;
+	margin-left: 30px;
+  }
+
+
+  .tittle {
+	font-family: 'Allerta Stencil', sans-serif;
+	color: black;
+  }
+  
+  .opacityShape {
+	opacity: 0.4;
+  }
+
+  #divTittle {
+	display: flex;
+    align-items: center;
+  }
+
+  #personalPhoto {
+	position: fixed;
+    right: 0%;
+	bottom: 0;
+  }
+
+  #cardAboutme {
+	width: auto;
+	height: auto;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding:  40px;
+	box-shadow: 5px 5px 5px #d6d6d6;
+  }
+
+  .icon {
+	width: 40px;
+  }
+
+  li {
+	list-style: none;
+  }
+
+  #textCardAboutme {
+	display: flex;
+  }
+
+  #textPersonality {
+	width: 688px;
+    margin-right: 30px;
+  }
+
+  #textHobbies {
+	width: auto;
+  }
+  
+  #textCardAboutme ul li {
+	margin-bottom: 10px;
+  }
+
+  #textCardAboutme li {
+    display: flex;
+    align-items: center;
+  }
