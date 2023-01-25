@@ -43,6 +43,11 @@ nav {
 	height: 100vh;
 	
 }
+
+span {
+	font-size: 8px;
+  }
+
 #menu {
 	display: flex;
 	flex-direction: column;
@@ -126,6 +131,64 @@ nav div a {
 	        animation: shake-vertical 10s cubic-bezier(0.470, 0.000, 0.745, 0.715) infinite both;
 }
 
+main {
+width: calc(100vw - 170px);
+margin-left: 170px;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h2 {
+font-family: 'Allerta Stencil', sans-serif;
+font-size: 80px;
+font-weight: 400;
+line-height: 102px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+h5, h3 {
+font-size: 40px;
+}
+
+span, h3{
+font-family: 'Courier Prime', monospace;
+color: rgba(0, 0, 0, 0.48);
+}
+
+main a {
+text-decoration: none;
+color: #3F3F3F;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: 30px;
+}
+/*
+===========================
+	responsive
+===========================
+*/
+
+@media screen and (orientation: landscape) {}
+@media screen and (orientation: portrait) {}
+
+
+/*
+===========================
+	animaciones
+===========================
+*/
+
+@keyframes animacion {
+	0% {}
+	100% {}
+}
+
 @-webkit-keyframes shake-vertical {
 	0%,
 	100% {
@@ -183,60 +246,4 @@ nav div a {
 	}
   }
 
-  main {
-	width: calc(100vw - 170px);
-	margin-left: 170px;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-  }
-
-  h2 {
-	font-family: 'Allerta Stencil', sans-serif;
-	font-size: 80px;
-	font-weight: 400;
-	line-height: 102px;
-	letter-spacing: 0em;
-	text-align: left;
-  }
-
-  h5, h3 {
-	font-size: 40px;
-  }
-
-  span, h3{
-	font-family: 'Courier Prime', monospace;
-	color: rgba(0, 0, 0, 0.48);
-  }
-
-  main a {
-	text-decoration: none;
-	color: #3F3F3F;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	font-size: 30px;
-  }
-/*
-===========================
-	responsive
-===========================
-*/
-
-@media screen and (orientation: landscape) {}
-@media screen and (orientation: portrait) {}
-
-
-/*
-===========================
-	animaciones
-===========================
-*/
-
-@keyframes animacion {
-	0% {}
-	100% {}
-}
+ 
