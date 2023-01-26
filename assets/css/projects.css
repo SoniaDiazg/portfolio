@@ -1,0 +1,31 @@
+#divTittle {
+	display: flex;
+  align-items: center;
+  }
+
+  #divTittle span {
+    font-size: 14px;
+  }
+
+  #mainProjects {
+    width: calc(100vw - 200px);
+    margin-left: 170px;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #mainProjects span {
+	font-size: 14px;
+  }
+
+  .cardProject {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: 0.5px solid #d6d6d6;
+    box-shadow: 5px 5px 5px #d6d6d6;
+  }

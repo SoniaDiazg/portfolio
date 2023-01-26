@@ -73,6 +73,7 @@ nav div a {
 #socialMedia {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .letraS {

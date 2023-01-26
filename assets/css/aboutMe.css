@@ -16,8 +16,7 @@
 
   #textAboutMe {
 	width: calc(100% - 400px);
-	font-size: 20px;
-	margin-left: 30px;
+	font-size: 18px;
   }
 
 
@@ -87,11 +86,12 @@
   }
 
   #textSkills {
-    padding-left: 50px;
+    margin: 10px;
   }
 
   #textPersonality {
     width: 50%;
+    margin: 10px;
   }
 
   #textPersonality h4 {
@@ -102,7 +102,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px 0;
   }
 
   .tittle h4 {
@@ -128,7 +127,7 @@
   .verticalLine {
     color: #3F3F3F;
     border: 1px solid #3F3F3F;
-    margin-left: 50px;
+    margin: 10px;
   }
 
   #finalCardAboutMe {
