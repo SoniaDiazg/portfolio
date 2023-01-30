@@ -23,22 +23,9 @@
 
 </head>
 <body>
-	<nav>
-		<button id="button-menu" class="button-menu"><a href="#"><p class="letraS">S</p></a></button>
-		<br><br>
-		<div id="menu">
-			<a href="aboutMe.html">Sobre mi</a>
-			<hr>
-			<a href="projects.html">Proyectos</a>
-			<hr>
-			<a href="contact.html">Contacto</a>
-		</div>
-		<div id="socialMedia">
-			<a href=""><img src="assets/rsc/img/icono_linkedin.svg" alt="icono Linkedin"></a>
-			<a href=""><img src="assets/rsc/img/icono_email.svg" alt="icono Email"></a>
-			<a href=""><img src="assets/rsc/img/icono_gitHub.svg" alt="icono gitHub"></a>
-		</div>
-	</nav>
+	<?php 
+		include_once 'includes/nav.inc.php';
+	?>
 	
 	<div id="shapesBackground">
 		<div id="blueShape">

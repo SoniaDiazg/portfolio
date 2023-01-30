@@ -24,22 +24,9 @@
 
 </head>
 <body>
-	<nav>
-		<button id="button-menu" class="button-menu"><a href="index.html"><p class="letraS">S</p></a></button>
-		<br><br>
-		<div id="menu">
-			<a href="aboutMe.html">Sobre mi</a>
-			<hr>
-			<a href="projects.html">Proyectos</a>
-			<hr>
-			<a href="contact.html">Contacto</a>
-		</div>
-		<div>
-			<a href=""><img src="assets/rsc/img/icono_linkedin.svg" alt="icono Linkedin"></a>
-			<a href=""><img src="assets/rsc/img/icono_email.svg" alt="icono Email"></a>
-			<a href=""><img src="assets/rsc/img/icono_gitHub.svg" alt="icono gitHub"></a>
-		</div>
-	</nav>
+	<?php 
+		include_once 'includes/nav.inc.php';
+	?>
 	
 	<main id="mainAboutme">
 		<span>&#60;?php</span>
@@ -54,7 +41,7 @@
 			<br>
 			<p>Siempre me ha gustado la tecnológia y las cosas que podemos desarrollar, mejorar y seguir aprendiendo con ella.</p>
 			<br>
-			<div id="cardAboutme" class="slide-in-top">
+			<div id="cardAboutme">
 				<p>
 					Aquí podrás conocerme un poco mejor.
 				</p>
@@ -194,7 +181,7 @@
 				<br>
 				<p style="font-style: italic; font-size: 16px">*Valoro el <strong>compañerismo</strong> y me gusta trabajar con un <strong>buen equipo.</strong></p>
 				<br>
-				<a id="finalCardAboutMe" class="heartbeat" href="proyectos.html">
+				<a id="finalCardAboutMe" class="heartbeat" href="projects.html">
 					<img src="assets/rsc/img/icono_proyectos.svg" alt="icono proyectos">
 					<p>Proyectos</p>
 				</a>
