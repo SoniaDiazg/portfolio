@@ -140,6 +140,64 @@
   }
 
 /*
+============================
+Responsive
+============================
+*/
+
+@media screen and (max-width: 480px) {
+  #mainAboutme {
+    width: 100%;
+    margin: 20px;
+    padding-left: 0px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #mainAboutme span {
+	font-size: 10px;
+  }
+
+  #textAboutMe {
+	width: 100%;
+	font-size: 14px;
+  }
+
+  #divTittle h2 {
+    font-size: 30px;
+  }
+
+  .tittle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #name {
+    padding-left: 10px;
+   }
+
+  #textAboutMe {
+    padding: 0px 10px;
+  }
+
+  #personalPhoto {
+    position: inherit;
+    transform: translate(0%, -50%);
+    }
+
+  #personalPhoto img {
+    border-radius: 50%;
+    width: 150px;
+    }
+  
+
+}
+
+/*
 ===========================
 	Modales
 ===========================

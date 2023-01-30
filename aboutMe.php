@@ -26,11 +26,12 @@
 <body>
 	<?php 
 		include_once 'includes/nav.inc.php';
+		include_once 'includes/navMobile.inc.php';
 	?>
 	
 	<main id="mainAboutme">
 		<span>&#60;?php</span>
-		<div id="divTittle"><span>echo &#60;h1> </span><h2 class="tittle">¡Hola, soy <p id="name">Sonia</p>!</h2><span>&#60;/h1>;</span></div>
+		<div id="divTittle"><span>echo &#60;h1> </span><h2 class="tittle">¡Hola, soy <h2 id="name">Sonia</h2>!</h2><span>&#60;/h1>;</span></div>
 		<span>echo &#60;section></span>
 		
 		<div id="textAboutMe">

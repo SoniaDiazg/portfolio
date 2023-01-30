@@ -1,10 +1,10 @@
-<nav>
+<nav class="navDesktop">
 		<button id="button-menu" class="button-menu"><a href="#"><p class="letraS">S</p></a></button>
 		<br><br>
 		<div id="menu">
-			<a href="aboutMe.html">Sobre mi</a>
+			<a href="aboutMe.php">Sobre mi</a>
 			<hr>
-			<a href="projects.html">Proyectos</a>
+			<a href="projects.php">Proyectos</a>
 			<hr>
 			<a>Contacto</a>
 		</div>

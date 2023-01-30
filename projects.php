@@ -30,6 +30,7 @@
 <body>
 	<?php 
 		include_once 'includes/nav.inc.php';
+		include_once 'includes/navMobile.inc.php';
 	?>
 
     <main id="mainProjects">

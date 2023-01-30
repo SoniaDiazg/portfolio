@@ -25,6 +25,7 @@
 <body>
 	<?php 
 		include_once 'includes/nav.inc.php';
+		include_once 'includes/navMobile.inc.php';
 	?>
 	
 	<div id="shapesBackground">
@@ -48,6 +49,7 @@
 		<a href="assets/rsc/files/CV_SoniaDiaz.pdf" target="_blank" download><i class="fa-solid fa-download"></i><p>Descargar CV</p></a>
 	</main>
 
+	
 	<!-- SCRIPTS -->
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
