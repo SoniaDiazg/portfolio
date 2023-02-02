@@ -20,7 +20,7 @@
   }
 
 
-  .tittle {
+  .tittleAboutme {
 	font-family: 'Allerta Stencil', sans-serif;
 	color: black;
   }
@@ -148,8 +148,8 @@ Responsive
 @media screen and (max-width: 480px) {
   #mainAboutme {
     width: 100%;
-    margin: 20px;
-    padding-left: 0px;
+    margin: 0px;
+    padding: 1rem;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -170,7 +170,7 @@ Responsive
     font-size: 30px;
   }
 
-  .tittle {
+  .tittleAboutme {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -185,15 +185,52 @@ Responsive
   }
 
   #personalPhoto {
-    position: inherit;
-    transform: translate(0%, -50%);
+    display: none;
     }
 
   #personalPhoto img {
-    border-radius: 50%;
-    width: 150px;
+    display: none;
+    }
+
+  .verticalLine {
+    display: none;
+  }
+
+  #textCardAboutme {
+    display: flex;
+    flex-direction: column;
     }
   
+  #cardAboutme {
+    padding:  23px;
+    }
+  
+  #textPersonality {
+    width: 100%;
+    text-align:start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsTitulations {
+    text-align: start;
+  }
+
+  .containerSkillsCoder {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+  }
+
+  .containerSkillsCoder img {
+    padding: 3px;
+  }
+
+  .contenido-modal img {
+    height: 0px;
+    width: 100%;
+  }
 
 }
 

@@ -21,9 +21,7 @@ function openModal(headerText, imgUrl, imgAlt) {
     document.querySelector(".contenido-modal img").setAttribute("alt", imgAlt);
     modal.style.display = "block";
 };
-// boton.addEventListener("click",function() {
-//     modal.style.display = "block";
-//   });
+
   // Si el usuario hace clic en la x, la ventana se cierra
   span.addEventListener("click",function() {
     modal.style.display = "none";
@@ -34,41 +32,3 @@ function openModal(headerText, imgUrl, imgAlt) {
       modal.style.display = "none";
     }
   });
-
-
-
-
-
-// /////// Abrir modal //////
-// const openEls = document.querySelectorAll("[data-open]");
-// const isVisible = "is-visible";
-
-// for (const el of openEls) {
-//     el.addEventListener("click", function() {
-//         const modalId = this.dataset.open;
-//         document.getElementById(modalId).classList.add(isVisible);
-//     });
-// }
-
-/////// Cerrar modal //////
-// const closeEls = document.querySelectorAll("data-close");
-
-// for (const el of closeEls) {
-//     el.addEventListener("click", function() {
-//         this.parentElement.parentElement.parentElement.classList.remove(isVisible);
-//     });
-// }
-
-// /////// Cerrar modal haciendo click fuera del modal//////
-// document.addEventListener("click", e => {
-//     if(e.target == document.querySelector(".modal.is-visible")) {
-//         document.querySelector(".modal.is-visible").classList.remove(isVisible);
-//     }
-// });
-
-// /////// Cerrar modal pulsando la tecla esc//////
-// document.addEventListener("keyup", e => {
-//     if(e.key == "Escape" && document.querySelector(".modal.is-visible")) {
-//         document.querySelector("modal.is-visible").classList.remove(isVisible);
-//     }
-// });

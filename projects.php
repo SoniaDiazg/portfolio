@@ -61,7 +61,7 @@
                     <div class="SkillsCardProject">
                         <p><strong>Herramientas utilizadas:</strong></p>
                         <div>
-                            <img src="assets/rsc/img/icono_sublime.svg" alt="">
+                            <img class="iconHeight" src="assets/rsc/img/icono_sublime.svg" alt="">
                             <img src="assets/rsc/img/icono_php.svg" alt="">
                             <img src="assets/rsc/img/icono_phpmyadmin.svg" alt="">
                             <img src="assets/rsc/img/icono_sql.svg" alt="">
@@ -69,7 +69,7 @@
                             <img src="assets/rsc/img/icono_html.svg" alt="">
                             <img src="assets/rsc/img/icono_css.svg" alt="">
                             <img src="assets/rsc/img/icono_js.svg" alt="">
-                            <img src="assets/rsc/img/icono_jquery.svg" alt="">
+                            <img class="iconHeight" src="assets/rsc/img/icono_jquery.svg" alt="">
                             <img src="assets/rsc/img/icono_boostrap.svg" alt="">
                         </div>
                     </div>

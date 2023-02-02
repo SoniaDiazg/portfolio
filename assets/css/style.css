@@ -82,14 +82,13 @@ nav.navDesktop div a {
 }
 
 .letraS {
-	font-weight: 900;
-	font-size: 100px;
-	color: #80B4B6;
+	height: 70px;
 }
 
 #button-menu {
 	background: none;
 	border: none;
+	margin-top: 30px;
 }
 
 /* estilos main */
@@ -204,6 +203,14 @@ nav.navMobile {
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
+	}
+
+	.letraS {
+		height: 30px;
+	}
+
+	#button-menu {
+		margin-top: 0px;
 	}
 
 	#blueShape {

@@ -1,5 +1,5 @@
 <nav class="navDesktop">
-		<button id="button-menu" class="button-menu"><a href="#"><p class="letraS">S</p></a></button>
+		<button id="button-menu" class="button-menu"><a href="index.php"><img class="letraS" src="assets/rsc/img/s.svg" alt="letra s"></a></button>
 		<br><br>
 		<div id="menu">
 			<a href="aboutMe.php">Sobre mi</a>

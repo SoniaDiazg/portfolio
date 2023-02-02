@@ -1,5 +1,6 @@
 
 <nav class="navMobile">
+	<button id="button-menu" class="button-menu"><a href="index.php"><img class="letraS" src="assets/rsc/img/S.svg"></img></a></button>
 	<a href="aboutMe.php"><img src="assets/rsc/img/icono_sobreMi.svg" alt=""></a>
 	<a href="projects.php"><img src="assets/rsc/img/icono_proyectosMenu.svg" alt=""></a>
 	<a href="https://www.linkedin.com/in/sonia-díaz-garzon" target="_blank"><img src="assets/rsc/img/icono_linkedin.svg" alt="icono Linkedin"></a>

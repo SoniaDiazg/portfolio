@@ -31,7 +31,7 @@
 	
 	<main id="mainAboutme">
 		<span>&#60;?php</span>
-		<div id="divTittle"><span>echo &#60;h1> </span><h2 class="tittle">¡Hola, soy <h2 id="name">Sonia</h2>!</h2><span>&#60;/h1>;</span></div>
+		<div id="divTittle"><span>echo &#60;h1> </span><h2 class="tittleAboutme">¡Hola, soy <h2 id="name">Sonia</h2>!</h2><span>&#60;/h1>;</span></div>
 		<span>echo &#60;section></span>
 		
 		<div id="textAboutMe">
@@ -59,28 +59,34 @@
 							
 							<div class="skillsCoder">
 								<p>Backend</p>
-								<img src="assets/rsc/img/icono_php.svg" alt="PHP">
-								<img src="assets/rsc/img/icono_sql.svg" alt="SQL">
-								<img src="assets/rsc/img/icono_myslq.svg" alt="Mysql">
-								<img src="assets/rsc/img/icono_phpmyadmin.svg" alt="PHPmyAdmin">
+								<div class="containerSkillsCoder">
+									<img src="assets/rsc/img/icono_php.svg" alt="PHP">
+									<img src="assets/rsc/img/icono_sql.svg" alt="SQL">
+									<img src="assets/rsc/img/icono_myslq.svg" alt="Mysql">
+									<img src="assets/rsc/img/icono_phpmyadmin.svg" alt="PHPmyAdmin">
+								</div>
 							</div>
 
 							<div class="skillsCoder">
 								<p>Frontend</p>
-								<img src="assets/rsc/img/icono_html.svg" alt="HTML">
-								<img src="assets/rsc/img/icono_css.svg" alt="CSS">
-								<img src="assets/rsc/img/icono_js.svg" alt="Javascript">
-								<img src="assets/rsc/img/icono_jquery.svg" alt="Jquery">
+								<div class="containerSkillsCoder">
+									<img src="assets/rsc/img/icono_html.svg" alt="HTML">
+									<img src="assets/rsc/img/icono_css.svg" alt="CSS">
+									<img src="assets/rsc/img/icono_js.svg" alt="Javascript">
+									<img src="assets/rsc/img/icono_jquery.svg" alt="Jquery">
+								</div>
 							</div>
 
 							<div class="skillsCoder">
 								<p>Otras Herramientas</p>
-								<img src="assets/rsc/img/icono_git.svg" alt="GIT">
-								<img src="assets/rsc/img/icono_github_negro.svg" alt="Github">
-								<img src="assets/rsc/img/icono_sublime.svg" alt="SublimeText">
-								<img src="assets/rsc/img/icono_vscode.svg" alt="VSCode">
-								<img src="assets/rsc/img/icono_figma.svg" alt="Figma">
-								<img src="assets/rsc/img/icono_slack.svg" alt="Slack">
+								<div class="containerSkillsCoder">
+									<img src="assets/rsc/img/icono_git.svg" alt="GIT">
+									<img src="assets/rsc/img/icono_github_negro.svg" alt="Github">
+									<img src="assets/rsc/img/icono_sublime.svg" alt="SublimeText">
+									<img src="assets/rsc/img/icono_vscode.svg" alt="VSCode">
+									<img src="assets/rsc/img/icono_figma.svg" alt="Figma">
+									<img src="assets/rsc/img/icono_slack.svg" alt="Slack">
+								</div>
 							</div>
 						</div>
 
@@ -94,14 +100,14 @@
 								
 								<div class="containerTittle">
 									<div class="educationTittle">
-										<p><strong>Máster Desarrollo Web Backend</strong> <br>Sep - Dic 2022 <br> Codeku (Sevilla)</p>			<button id="abrirModal" onclick="openModal('Desarrollo web Backend (PHP + SQL)', 'assets/rsc/img/fotoPersonal.png', 'Titulo Javascript')"><img src="assets/rsc/img/icono_descargar.svg" alt="Descargar"></button>
+										<p><strong>Máster Desarrollo Web Backend</strong> <br>Sep - Dic 2022 <br> Codeku (Sevilla)</p>
+										<button id="abrirModal" onclick="openModal('Comming soon', 'assets/rsc/img/backend.jpg', 'Titulo Backend')"><img src="assets/rsc/img/icono_descargar.svg" alt="Descargar"></button>
 									</div>
 								</div>
 								
 								<div class="containerTittle">
 									<div class="educationTittle">
 										<p><strong>Curso Desarrollo Web Frontend (Javascript)</strong> <br>Jul 2022 <br> Codeku (Sevilla)</p>
-										<button id="abrirModal" onclick="openModal('Desarrollo web Frontend (Javascript)', 'assets/rsc/img/fotoPersonal.png', 'Titulo Javascript')"><img src="assets/rsc/img/icono_descargar.svg" alt="Descargar"></button>
 									</div>
 								</div>
 								
