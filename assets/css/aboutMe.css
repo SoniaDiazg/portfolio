@@ -140,101 +140,6 @@
   }
 
 /*
-============================
-Responsive
-============================
-*/
-
-@media screen and (max-width: 480px) {
-  #mainAboutme {
-    width: 100%;
-    margin: 0px;
-    padding: 1rem;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-  }
-
-  #mainAboutme span {
-	font-size: 10px;
-  }
-
-  #textAboutMe {
-	width: 100%;
-	font-size: 14px;
-  }
-
-  #divTittle h2 {
-    font-size: 30px;
-  }
-
-  .tittleAboutme {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  #name {
-    padding-left: 10px;
-   }
-
-  #textAboutMe {
-    padding: 0px 10px;
-  }
-
-  #personalPhoto {
-    display: none;
-    }
-
-  #personalPhoto img {
-    display: none;
-    }
-
-  .verticalLine {
-    display: none;
-  }
-
-  #textCardAboutme {
-    display: flex;
-    flex-direction: column;
-    }
-  
-  #cardAboutme {
-    padding:  23px;
-    }
-  
-  #textPersonality {
-    width: 100%;
-    text-align:start;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .skillsTitulations {
-    text-align: start;
-  }
-
-  .containerSkillsCoder {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-  }
-
-  .containerSkillsCoder img {
-    padding: 3px;
-  }
-
-  .contenido-modal img {
-    height: 0px;
-    width: 100%;
-  }
-
-}
-
-/*
 ===========================
 	Modales
 ===========================
@@ -320,9 +225,124 @@ button {
   justify-content: space-between;
 }
 
+/*
+============================
+Responsive
+============================
+*/
 
+/*
+=======================
+Tablet
+=======================
+*/
+@media screen and (max-width: 991px)  {
 
+  #personalPhoto {
+    display: none;
+    }
 
+  #textAboutMe {
+    width: 100%;
+  }
+}
+
+/*
+=====================
+Mobile
+=====================
+*/
+@media screen and (max-width: 480px) {
+  #mainAboutme {
+    width: 100%;
+    margin: 0px;
+    padding: 1rem;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #mainAboutme span {
+	font-size: 10px;
+  }
+
+  #textAboutMe {
+	width: 100%;
+	font-size: 14px;
+  }
+
+  #divTittle h2 {
+    font-size: 30px;
+  }
+
+  .tittleAboutme {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #name {
+    padding-left: 10px;
+   }
+
+  #textAboutMe {
+    padding: 0px 10px;
+  }
+
+  #personalPhoto {
+    display: none;
+    }
+
+  #personalPhoto img {
+    display: none;
+    }
+
+  .verticalLine {
+    display: none;
+  }
+
+  #textCardAboutme {
+    display: flex;
+    flex-direction: column;
+    }
+  
+  #cardAboutme {
+    padding:  23px;
+    }
+  
+  #textPersonality {
+    width: 100%;
+    text-align:start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsTitulations {
+    text-align: start;
+  }
+
+  .containerSkillsCoder {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+  }
+
+  .containerSkillsCoder img {
+    padding: 3px;
+  }
+
+  .contenido-modal {
+    height: auto;
+  }
+  .contenido-modal img {
+    height: unset;
+    width: 100%;
+  }
+
+}
 
 
 /*
@@ -332,10 +352,7 @@ button {
 */
 
 /* Animaciones modal */
-@-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
-}
+
 @keyframes animarsuperior {
   from {top:-300px; opacity:0}
   to {top:0; opacity:1}

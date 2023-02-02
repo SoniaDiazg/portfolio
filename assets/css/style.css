@@ -13,8 +13,6 @@
 ===========================
 */
 
-:root {}
-
 
 /*
 ===========================
@@ -104,7 +102,7 @@ nav.navDesktop div a {
 #blueShape {
 	position: absolute;
     top:10%;
-    left: 0%;
+    left: -10%;
 }
 
 #blueShape img {
@@ -123,7 +121,7 @@ nav.navDesktop div a {
 
 #violetShape {
 	position: absolute;
-    top: -1%;
+    top: -6%;
     right: 0%;
 }
 
@@ -174,9 +172,22 @@ flex-direction: column;
 font-size: 30px;
 }
 
+#copyright {
+	color: #F5F5F5;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
 nav.navMobile {
 	display: none;
 }
+
+
 /*
 ===========================
 	responsive
@@ -186,7 +197,48 @@ nav.navMobile {
 @media screen and (orientation: landscape) {}
 @media screen and (orientation: portrait) {}
 
-/*Mobile*/
+/*
+=============================
+Tablet
+=============================
+*/
+@media screen and (max-width: 991px) {
+	#blueShape {
+		position: absolute;
+		top: 25%;
+		left: -10%;
+	}
+	
+	#blueShape img {
+		width: 600px;
+	}
+	
+	#yellowShape {
+		position: absolute;
+		top: unset;
+		bottom: -20px;
+	}
+	
+	#yellowShape img {
+		width: 600px;
+	}
+	
+	#violetShape {
+		position: absolute;
+		top: -20%;
+		right: -20%;
+	}
+	
+	#violetShape img {
+		width: 500px;
+	}
+}
+
+/*
+=============================
+Mobile
+=============================
+*/
 @media screen and (max-width: 480px) {
 	nav.navDesktop {
  		display: none;

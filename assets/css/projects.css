@@ -113,6 +113,29 @@
 Responsive
 =====================
 */
+
+/*
+===================
+Tablet
+===================
+*/
+@media screen and (max-width: 991px) {
+  #containerProjects {
+    flex-direction: column !important;
+  }
+
+  .cardProject {
+    margin: 10px 10px;
+  }
+}
+
+
+
+/*
+===================
+Mobile
+===================
+*/
 @media screen and (max-width: 480px) {
 
   #mainProjects {
@@ -136,7 +159,7 @@ Responsive
   }
 
   .cardProject {
-    width: 318px;
+    width: 100%;
     height: 800px;
     border-radius: 5px;
     border: 0.5px solid #d6d6d6;
