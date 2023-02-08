@@ -22,6 +22,9 @@
 
 	<!-- Fontawesome -->
 	<script src="https://kit.fontawesome.com/75aacee435.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 
 	<title>Sonia Díaz | Portfolio</title>

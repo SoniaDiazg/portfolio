@@ -19,6 +19,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Courier+Prime&family=Montserrat:wght@400&display=swap" rel="stylesheet">
 	<!-- Fontawesome -->
 	<script src="https://kit.fontawesome.com/75aacee435.js" crossorigin="anonymous"></script>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	<title>Sonia Díaz | Portfolio</title>
 
