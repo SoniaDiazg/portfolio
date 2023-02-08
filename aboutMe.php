@@ -179,7 +179,7 @@
 
 								<li>
 									<img class="icon" src="assets/rsc/img/huella.gif" alt="huella"> 
-									<p> Animales (excepto los insectos)</p>
+									<p> Animales (excepto los bichos)</p>
 								</li>
 							</ul>
 						</div>
@@ -188,7 +188,7 @@
 				<br>
 				<p style="font-style: italic; font-size: 16px">*Valoro el <strong>compañerismo</strong> y me gusta trabajar con un <strong>buen equipo.</strong></p>
 				<br>
-				<a id="finalCardAboutMe" class="heartbeat" href="projects.html">
+				<a id="finalCardAboutMe" class="heartbeat" href="projects.php">
 					<img src="assets/rsc/img/icono_proyectos.svg" alt="icono proyectos">
 					<p>Proyectos</p>
 				</a>

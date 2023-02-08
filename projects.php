@@ -41,7 +41,7 @@
             <span>echo &#60;section></span>
         </div>
         <div id="tittleText">
-            <p>Qué mejor manera de mejorar que hacer pequeños proyectos personales, para no dejar de aprender y desarrollar nuevas ideas.</p>
+            <p>Qué mejor manera de crecer que hacer pequeños proyectos personales para no dejar de aprender y desarrollar nuevas ideas.</p>
             <p>En esta sección puedes ver los proyectos que he llevado a cabo desde que comencé a estudiar programación.</p>
         </div>
         <span>&#60;?php</span>
@@ -58,6 +58,11 @@
                     <p>Proyecto final del máster de <strong>Desarrollo Web Backend</strong> en Codeku. Intranet de gestión para una supuesta empresa teconológica donde se pueden <strong> crear y gestionar clientes, presupuestos, facturas, proyectos y tareas asociadas a ese proyecto.</strong> </p>
                     <p>El front se ha desarrollado mendiante plantilla, ajustandole estilos propios para hacerla mas personal.</p>
                     <a href="https://sdtech.es/sdtech/admin/index.php" target="_blank"><strong>https://sdtech.es/sdtech/admin/index.php</strong></a>
+                    <p>
+                        <strong>Credenciales:</strong><br>
+                        Usuario: admin@sdtech.com <br>
+                        Clave: 1234
+                    </p>
                     <div class="SkillsCardProject">
                         <p><strong>Herramientas utilizadas:</strong></p>
                         <div>
@@ -87,8 +92,9 @@
                 
                 <div class="descriptionCardProject">
                     <p>Proyecto final del curso de <strong>Desarrollo Web Frontend </strong>en Coderhouse.</p>
-                    <p>Quise realizar este proyecto para un familiar, ya que se encuentra en pleno crecidimiento y decidí apoyar su emprendimiento con este proyecto.</p>
-                    <p>Me gustaría llegar a poder desarrollar un portal para gestionar y crear citas, aunque por el momento creo que debo recurrir a alguna herramienta ya creada.</p>
+                    <p>Quise realizar este proyecto para un familiar, ya que se encuentra en pleno crecimiento y decidí apoyar su emprendimiento.</p>
+                    <p>Quise optimizar al máximo el <strong>responsive para móvil,</strong> ya que la mayoria de sus pacientes cogen cita a través de él.</p>
+                    <p>El siguiente paso para este proyecto es crear un portal para que los usuarios puedan coger cita online a través de la web.</p>
                     <a href="https://vdgquiromasaje.netlify.app/" target="_blank"><strong>https://vdgquiromasaje.netlify.app/</strong></a>
                     <div class="SkillsCardProject">
                         <p><strong>Herramientas utilizadas:</strong></p>
