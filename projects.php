@@ -33,7 +33,7 @@
 <body>
 	<?php 
 		include_once 'includes/nav.inc.php';
-		include_once 'includes/navMobile.inc.php';
+		include_once 'includes/navMobileProjects.inc.php';
 	?>
 
     <main id="mainProjects">
@@ -58,7 +58,7 @@
                     <img src="assets/rsc/img/sdtechAdmin.png" alt="Intranet SDTech">
                 </div>
                 <div class="descriptionCardProject">
-                    <p>Proyecto final del máster de <strong>Desarrollo Web Backend</strong> en Codeku. Intranet de gestión para una supuesta empresa teconológica donde se pueden <strong> crear y gestionar clientes, presupuestos, facturas, proyectos y tareas asociadas a ese proyecto.</strong> </p>
+                    <p>Proyecto final del máster de <strong>Desarrollo Web Backend</strong> en Codeku. Intranet de gestión para una supuesta empresa tecnológica donde se pueden <strong> crear y gestionar clientes, presupuestos, facturas, proyectos y tareas asociadas a ese proyecto.</strong> </p>
                     <p>El front se ha desarrollado mendiante plantilla, ajustandole estilos propios para hacerla mas personal.</p>
                     <a href="https://sdtech.es/sdtech/admin/index.php" target="_blank"><strong>https://sdtech.es/sdtech/admin/index.php</strong></a>
                     <p>

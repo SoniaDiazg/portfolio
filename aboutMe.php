@@ -29,7 +29,7 @@
 <body>
 	<?php 
 		include_once 'includes/nav.inc.php';
-		include_once 'includes/navMobile.inc.php';
+		include_once 'includes/navMobileAboutme.inc.php';
 	?>
 	
 	<main id="mainAboutme">
